@@ -1,8 +1,13 @@
-import ExampleYAML from './content/example.yaml';
+import ExampleYAML from '../content/example.yaml';
 import logo from './logo.svg'
 import './App.css'
 
 function App() {
+  console.log(ExampleYAML);
+
+  console.log(Object.entries(ExampleYAML).forEach(([key, value]) => {
+    console.log(typeof key);
+  }));
 
   return (
     <div className="App">

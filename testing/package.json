@@ -1,0 +1,16 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest -w",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@modyfi/vite-plugin-yaml": "workspace:*",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vitest": "^0.5.5"
+  }
+}
